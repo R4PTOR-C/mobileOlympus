@@ -67,7 +67,7 @@ export default function LoginScreen() {
             <View style={styles.welcomeContainer}>
                 <Text style={styles.welcomeTitle}>Bem-vindo</Text>
                 <Text>Não tem uma conta?</Text>
-                <TouchableOpacity style={styles.signUpButton} onPress={() => navigation.navigate('SignUp')}>
+                <TouchableOpacity style={styles.signUpButton} onPress={() => navigation.navigate('Register')}>
                     <Text style={styles.signUpButtonText}>Cadastrar-se</Text>
                 </TouchableOpacity>
             </View>
